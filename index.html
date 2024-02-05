@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ULTIMATE PC DYNAMIC</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    <a href="#home" class="w3-bar-item w3-button w3-yellow"><img src="logo.jpg" alt="Logo" class="w3-image" style="height: 30px; margin-right: 10px;"> <!-- Adjust height and margin as needed -->
+        <b>ULTIMATE PC DYNAMIC</b></a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#projects" class="w3-bar-item w3-button">Services</a>
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="kedai.jpg" alt="Ultimate PC Dynamic" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge">
+	<span class="w3-padding w3-black w3-opacity-min dark-blue-text"><b>Ultimate PC Dynamic</b></span></h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  <!-- Project Section -->
+  <div class="w3-container w3-padding-32" id="projects">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Services</h3>
+  </div>
+
+  <div class="w3-row-padding" onmouseover="shrinkImage(this)" onmouseout="restoreImage(this)">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-yellow w3-padding" style="z-index: 1;">Laptop Repair and Service</div>
+        <img src="laptop.jpg" alt="Laptop" style="width:100%; height:320px; ">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container" onmouseover="shrinkImage(this)" onmouseout="restoreImage(this)">
+        <div class="w3-display-topleft w3-yellow w3-padding" style="z-index: 1;">Printer Repair and Service</div>
+        <img src="printer.jpg" alt="Printer" style="width:100%; height:320px; ">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container" onmouseover="shrinkImage(this)" onmouseout="restoreImage(this)">
+        <div class="w3-display-topleft w3-yellow w3-padding" style="z-index: 1;">Monitor Repair and Service</div>
+        <img src="monitor.jpg" alt="Monitor" style="width:100%; height:320px; ">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container" onmouseover="shrinkImage(this)" onmouseout="restoreImage(this)">
+        <div class="w3-display-topleft w3-yellow w3-padding" style="z-index: 1;">PC Repair and Service</div>
+        <img src="pc.jpg" alt="PC" style="width:100%; height:320px; ">
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container" onmouseover="shrinkImage(this)" onmouseout="restoreImage(this)">
+        <div class="w3-display-topleft w3-yellow w3-padding" style="z-index: 1;">Phone Repair and Service</div>
+        <img src="phone.jpg" alt="Phone" style="width:99%; height:320px; ">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container" onmouseover="shrinkImage(this)" onmouseout="restoreImage(this)">
+        <div class="w3-display-topleft w3-yellow w3-padding" style="z-index: 1;">Document Service</div>
+        <img src="doc.jpg" alt="Document" style="width:99%; height:320px; ">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container" onmouseover="shrinkImage(this)" onmouseout="restoreImage(this)">
+        <div class="w3-display-topleft w3-yellow w3-padding" style="z-index: 1;">Multi Services</div>
+        <img src="multi.jpg" alt="Multi" style="width:99%; height:320px; ">
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container" onmouseover="shrinkImage(this)" onmouseout="restoreImage(this)">
+        <div class="w3-display-topleft w3-yellow w3-padding" style="z-index: 1;">Sell Goods</div>
+        <img src="shop.jpg" alt="Goods" style="width:99%; height:320px; ">
+      </div>
+    </div>
+<script>
+    function shrinkImage(container) {
+        var image = container.querySelector('img');
+        image.style.transform = 'scale(0.95)';
+    }
+
+    function restoreImage(container) {
+        var image = container.querySelector('img');
+        image.style.transform = 'scale(1)';
+    }
+</script>
+  </div>
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+    <p>
+	Welcome to our comprehensive shop, your ultimate destination for all things technology and beyond! 
+	We specialize in expert repair services for laptops, printers, monitors, PCs, and a variety of gadgets, ensuring your devices are back in top-notch condition.
+	Alongside our repair expertise, we offer an extensive selection of computer equipment and accessories, catering to your every tech need. 
+	But that's not all – we provide convenient printing services, binding, laminating, and more, making us your go-to spot for all office essentials. 
+	Experience the convenience of our full-service shop, where quality repairs, top-notch products, and a range of additional services converge to meet all your technology and office requirements.
+    </p>
+  </div>
+
+<div class="w3-row-padding w3-grayscale">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+        <img src="bos.jpg" alt="John" style="width:150px; height:150px; border-radius: 50%;">
+        <h3>WONG JIN SIONG</h3>
+        <p class="w3-opacity">OWNER</p>
+        <p>Expert engineering in repair and service gadget.</p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+        <img src="mdm.jpg" alt="Dan" style="width:150px; height:150px; border-radius: 50%;">
+        <h3>VIOLET KONG MEI CHIN</h3>
+        <p class="w3-opacity">MANAGER</p>
+        <p>In-Charge for accounting and marketing. </p>
+    </div>
+</div>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-32" id="contact">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
+    <p>Lets get in touch and talk about your machine concern.</p>
+	<blockquote><i class="fas fa-phone"></i><a href="https://wa.link/vp0xkm" onmouseover="this.style.color='blue'" onmouseout="this.style.color='black'" title="Click to Contact Us"> Contact Number : +6016-885 8505</a></blockquote>
+	<blockquote><i class="fab fa-facebook"></i><a href="https://www.facebook.com/ASUSKOTASAMARAHAN/" onmouseover="this.style.color='blue'" onmouseout="this.style.color='black'" title="Click to View Facebook"> Facebook : Ultimate PC Dynamic </a></blockquote>
+	<blockquote><i class="far fa-envelope"></i> Email : ultimatepcdynamic@hotmail.com</blockquote>
+	
+
+ <p class="w3-border-bottom w3-border-light-grey w3-padding-16">Address:</p>
+	<blockquote>Ground Floor Sublot 69</blockquote>
+	<blockquote> Jalan Datuk Mohd Musa</blockquote>
+	<blockquote> Desa Ilmu Phase 25</blockquote>
+	<blockquote> 94300 Kota Samarahan,Sarawak.</blockquote>
+	<blockquote><b> Open Hours:</b> 9:30 a.m - 8:30 p.m everyday</blockquote>      
+  </div>
+  
+<!-- Image of location/map -->
+<div class="w3-container">
+  <img src="map.jpg" class="w3-image" style="width:100%">
+</div>
+
+<!-- End page content -->
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-16">
+<h4><i><b><img src="mona.jpeg" alt="Logo" class="w3-image" style="height: 50px; margin-right: 10px;  border-radius: 50%;">Partnership Brands</b></i></h4>
+  <div class="w3-row">
+    <div class="w3-col m4">
+      <img src="asus.png" alt="Partner Logo 1" style="width:50px;">
+    </div>
+    <div class="w3-col m4">
+      <img src="acer.png" alt="Partner Logo 2" style="width:50px;">
+    </div>
+    <div class="w3-col m4">
+      <img src="canon.png" alt="Partner Logo 3" style="width:50px;">
+    </div>
+    
+  </div>
+  
+  <!-- Add margin-top to create space between rows -->
+  <div class="w3-row" style="margin-top: 20px;">
+    <div class="w3-col m4">
+      <img src="lenovo.png" alt="Partner Logo 4" style="width:50px;">
+    </div>
+    <div class="w3-col m4">
+      <img src="epson.png" alt="Partner Logo 5" style="width:50px;">
+    </div>
+    <div class="w3-col m4">
+      <img src="king.png" alt="Partner Logo 6" style="width:75px;">
+    </div>
+  </div>
+
+  <!-- Add margin-top to create space between rows -->
+  <div class="w3-row" style="margin-top: 20px;">
+    <div class="w3-col m4">
+      <img src="hp.png" alt="Partner Logo 4" style="width:30px;">
+    </div>
+    <div class="w3-col m4">
+      <img src="intel.png" alt="Partner Logo 5" style="width:40px;">
+    </div>
+    <div class="w3-col m4">
+      <img src="ryzen.png" alt="Partner Logo 6" style="width:50px;">
+    </div>
+  </div>
+
+  <!-- Add margin-top to create space between rows -->
+  <div class="w3-row" style="margin-top: 20px;">
+    <div class="w3-col m4">
+      <img src="brother.png" alt="Partner Logo 4" style="width:50px;">
+    </div>
+    <div class="w3-col m4">
+      <img src="huawei.png" alt="Partner Logo 5" style="width:30px;">
+    </div>
+    <div class="w3-col m4">
+      <img src="mac.png" alt="Partner Logo 6" style="width:30px;">
+    </div>
+  </div>
+
+  <!-- Add margin-top to create space between rows -->
+  <div class="w3-row" style="margin-top: 20px;">
+    <div class="w3-col m4">
+      <img src="dlink.png" alt="Partner Logo 4" style="width:50px;">
+    </div>
+    <div class="w3-col m4">
+      <img src="tplink.png" alt="Partner Logo 5" style="width:55px;">
+    </div>
+    <div class="w3-col m4">
+      <img src="logi.png" alt="Partner Logo 5" style="width:55px;">
+    </div>  
+  </div>
+
+  <!-- Add margin-top to create space between rows -->
+  <div class="w3-row" style="margin-top: 20px;">
+    <div class="w3-col m4">
+      <img src="bitdefen.png" alt="Partner Logo 4" style="width:50px;">
+    </div>
+    <div class="w3-col m4">
+      <img src="microsoft.png" alt="Partner Logo 5" style="width:55px;">
+    </div>
+    <div class="w3-col m4">
+      <img src="dell.png" alt="Partner Logo 5" style="width:35px;">
+    </div>  
+  </div>
+
+  <!-- Add margin-top to create space between rows -->
+  <div class="w3-row" style="margin-top: 20px;">
+    <div class="w3-col m4">
+      <img src="vinni.png" alt="Partner Logo 4" style="width:55px;">
+    </div>
+    <div class="w3-col m4">
+      <img src="avf.png" alt="Partner Logo 5" style="width:55px;">
+    </div>
+    <div class="w3-col m4">
+      <img src="tiny.png" alt="Partner Logo 5" style="width:60px;">
+    </div>  
+  </div>
+
+  <!-- Add margin-top to create space between rows -->
+  <div class="w3-row" style="margin-top: 20px;">
+    <div class="w3-col m4">
+      <img src="ovleng.png" alt="Partner Logo 4" style="width:40px;">
+    </div>
+    <div class="w3-col m4">
+      <img src="giga.png" alt="Partner Logo 5" style="width:55px;">
+    </div>
+    <div class="w3-col m4">
+      <img src="msr.png" alt="Partner Logo 5" style="width:40px;">
+    </div>  
+  </div>
+
+  <!-- Add margin-top to create space between rows -->
+  <div class="w3-row" style="margin-top: 20px;">
+    <div class="w3-col m4">
+      <img src="martech.png" alt="Partner Logo 4" style="width:50px;">
+    </div>
+    <div class="w3-col m4">
+      <img src="vipfan.jpeg" alt="Partner Logo 5" style="width:35px;">
+    </div>
+    <div class="w3-col m4">
+      <img src="gaming.png" alt="Partner Logo 5" style="width:80px;">
+    </div>  
+  </div>
+</p></p>
+  <p>@Copyright Ultimate PC Dynamic made by <a href="https://www.instagram.com/eszetyu?igsh=MXV0c282MjhleHg4aA==" title="eszetyu" target="_blank" class="w3-hover-text-green">eszetyu@</a></p>
+</footer>
+
+</body>
+</html>
